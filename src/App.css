@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  background-image: url("https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg.webp");
+  height: 850px;
+  color: red;
+  position: relative;
+  font-family: sans-serif;
+}
+.header-h1 {
+  font-style: italic;
+  font-size: 50px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  list-style: none;
+  gap: 30px;
+}
+.body {
+  position: absolute;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+.body-tittle {
+  padding: 10px;
+}
+a {
+  padding: 10px;
+  border: solid 1px red;
+  color: white;
+}
